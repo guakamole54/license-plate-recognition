@@ -1,0 +1,5 @@
+# Requirements modules
+opencv-python
+pandas
+numpy
+matplotlib
