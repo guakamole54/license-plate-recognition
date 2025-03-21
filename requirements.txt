@@ -1,5 +1,7 @@
-# Requirements modules
+# Dependencies
 opencv-python
-pandas
 numpy
 matplotlib
+easyocr
+imutils
+pytesseract
