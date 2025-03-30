@@ -4,4 +4,4 @@ numpy
 matplotlib
 easyocr
 imutils
-pytesseract
+pytesseract # this also needs a standalone manual installation
