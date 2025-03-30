@@ -29,30 +29,29 @@ The goal is to build a functional license plate recognition pipeline using tradi
    ```
 2. 🛠️ Install Tesseract OCR
 
-Download and install Tesseract from:  
-👉 https://github.com/tesseract-ocr/tesseract
+Download and install Tesseract from:  https://github.com/tesseract-ocr/tesseract
 
 Make sure it's added to your system **PATH** so it can be accessed by Python scripts.
 
 ---
 
-3. ▶️ Run the Notebook
+3. Run the Notebook
 
 Open `anpr_notebook.ipynb` and run all cells. The pipeline will:
 
-- 📷 Preprocess and analyze all images in the `img/` folder  
-- 🔲 Detect license plates using contour-based detection  
-- 🔡 Extract and recognize text using OCR (Tesseract or EasyOCR)  
-- 🖼️ Annotate and display results with bounding boxes and recognized plate numbers
+- Preprocess and analyze all images in the `img/` folder  
+- Detect license plates using contour-based detection  
+- Extract and recognize text using OCR (Tesseract or EasyOCR)  
+- Annotate and display results with bounding boxes and recognized plate numbers
 
 ---
 
 ## ⚠️ Limitations
 
-- 📷 **Highly sensitive to image quality** — Plates must be clear and ideal distance and angle 
-- 🐢 **Slow OCR** — EasyOCR especially is too slow for real-time webcam use  
-- ❌ **Fragile detection** — Struggles with blurry, angled, or low-light images  
-- 🌍 **Limited format support** — Only validates plates from **CZ, SK, UA, and US** using regex
+- **Highly sensitive to image quality** — Plates must be clear and ideal distance and angle 
+- **Slow OCR** — EasyOCR especially is too slow for real-time webcam use  
+- **Fragile detection** — Struggles with blurry, angled, or low-light images  
+- **Limited format support** — Only validates plates from **CZ, SK, UA, and US** using regex
 
 
 
