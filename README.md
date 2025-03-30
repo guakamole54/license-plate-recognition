@@ -27,7 +27,7 @@ The goal is to build a functional license plate recognition pipeline using tradi
    ```bash
    pip install -r requirements.txt
    ```
-2. 🛠️ Install Tesseract OCR
+2. Install Tesseract OCR
 
 Download and install Tesseract from:  https://github.com/tesseract-ocr/tesseract
 
